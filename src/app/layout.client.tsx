@@ -6,8 +6,17 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Providers } from "@/components/Providers"
 
-const inter = Inter({ subsets: ["latin"] });
-const geistMono = Geist_Mono({ subsets: ["latin"] });
+const inter = Inter({ 
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const geistMono = Geist_Mono({ 
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-geist-mono",
+});
 
 export default function RootLayoutClient({
   children,
@@ -15,8 +24,8 @@ export default function RootLayoutClient({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className="scroll-smooth">
-      <body className={`${inter.className} font-sans [--font-geist-mono:${geistMono.className}]`}>
+    <html lang="tr" className={`scroll-smooth ${inter.variable} ${geistMono.variable}`}>
+      <body className="font-sans [--font-geist-mono:var(--font-geist-mono)]">
         <Providers>
           <div className="min-h-screen flex flex-col gap-4">
             <Navbar />

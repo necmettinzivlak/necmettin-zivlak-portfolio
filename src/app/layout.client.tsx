@@ -16,7 +16,7 @@ export default function RootLayoutClient({
 }>) {
   return (
     <html lang="tr" className="scroll-smooth">
-      <body className={`${inter.className} font-sans`}>
+      <body className={`${inter.className} font-sans [--font-geist-mono:${geistMono.className}]`}>
         <Providers>
           <div className="min-h-screen flex flex-col gap-4">
             <Navbar />

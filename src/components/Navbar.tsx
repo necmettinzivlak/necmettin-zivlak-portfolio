@@ -2,14 +2,12 @@
 
 import { useLanguage } from "@/context/LanguageContext";
 import { useTheme } from "@/context/ThemeContext";
-import { translations } from "@/translations";
 import Image from "next/image";
 import { useState } from "react";
 
 const Navbar = () => {
   const { language, setLanguage } = useLanguage();
   const { theme, toggleTheme } = useTheme();
-  const t = translations[language];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -35,7 +33,7 @@ const Navbar = () => {
               ].map((item) => (
                 <button
                   key={item.lang}
-                  onClick={() => setLanguage(item.lang as any)}
+                  onClick={() => setLanguage(item.lang as "tr" | "az" | "en" | "de")}
                   className={`w-7 h-5 relative group transition-all duration-200 rounded overflow-hidden ${
                     language === item.lang
                       ? "shadow-md scale-110 bg-white dark:bg-gray-700"
@@ -95,7 +93,7 @@ const Navbar = () => {
                       <button
                         key={item.lang}
                         onClick={() => {
-                          setLanguage(item.lang as any);
+                          setLanguage(item.lang as "tr" | "az" | "en" | "de");
                           setIsMenuOpen(false);
                         }}
                         className={`w-full flex items-center space-x-3 px-4 py-2 text-left text-sm transition-colors ${

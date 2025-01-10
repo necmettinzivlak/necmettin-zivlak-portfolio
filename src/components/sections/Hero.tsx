@@ -1,78 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useLanguage } from "@/context/LanguageContext";
 import { translations } from "@/translations";
 
 interface Command {
   command: string;
   response?: string;
-}
-
-interface ExperienceItem {
-  title: string;
-  company: string;
-  date: string;
-  projects: string;
-  tech: string;
-}
-
-interface EducationItem {
-  school: string;
-  degree: string;
-  date: string;
-  grade?: string;
-}
-
-interface TranslationType {
-  nav: {
-    about: string;
-    skills: string;
-    projects: string;
-    experience: string;
-    education: string;
-    contact: string;
-  };
-  hero: {
-    greeting: string;
-    role: string;
-    description: string;
-    experience: string;
-    years: string;
-    terminal: {
-      welcome: string;
-      readFile: string;
-      systemInfo: string;
-      os: string;
-      host: string;
-      shell: string;
-      terminal: string;
-      packages: string;
-      uptime: string;
-    };
-  };
-  about: {
-    title: string;
-    description: string;
-  };
-  experience: {
-    title: string;
-    current: string;
-    yerlem: ExperienceItem;
-    stechome: ExperienceItem;
-    terra: ExperienceItem;
-  };
-  education: {
-    title: string;
-    ktu: EducationItem;
-    anadolu: EducationItem;
-  };
-  contact: {
-    title: string;
-    location: string;
-    email: string;
-  };
 }
 
 export default function Hero() {
@@ -84,7 +19,7 @@ export default function Hero() {
   const [commandIndex, setCommandIndex] = useState(0);
   const [showContent, setShowContent] = useState(false);
 
-  const initialCommands = [
+  const initialCommands = useMemo(() => [
     {
       command: "ssh portfolio.necmettin.dev",
       response: t.hero.terminal.connecting,
@@ -104,7 +39,7 @@ export default function Hero() {
 </div>
 </div>`,
     },
-  ];
+  ], [t.hero.terminal.connecting, t.hero.greeting, t.hero.description, t.hero.terminal.packages, t.hero.experience, t.hero.terminal.uptime, t.hero.years]);
 
   const sections = [
     { id: "about", command: "cat about.txt", label: t.nav.about },
@@ -231,7 +166,7 @@ ${skills
     }, 50);
 
     return () => clearInterval(typingInterval);
-  }, [commandIndex, language]);
+  }, [commandIndex, language, initialCommands]);
 
   return (
     <section className="min-h-screen max-w-screen overflow-hidden flex items-center bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 pb-10">

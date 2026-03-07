@@ -1,0 +1,248 @@
+{
+    "Navigation": {
+        "projects": "Layihələr",
+        "experience": "Təcrübə",
+        "skills": "Bacarıqlar",
+        "blog": "Bloq",
+        "contact": "Əlaqə"
+    },
+    "Hero": {
+        "title": "Necmettin Zivlak | Frontend Engineer",
+        "subtitle": "React • Next.js • TypeScript • Flutter",
+        "description": "React, Next.js, TypeScript və Flutter istifadə edərək miqyaslana bilən veb və mobil tətbiqlər qurmaqda 3+ il təcrübəyə malik Frontend və Mobil Geliştirici. Fintech platformaları, real vaxt izləmə sistemləri və kurumsal əməliyyat alətləri inkişaf etdirmək üzrə təcrübəli. Performans optimallaşdırılmasına, davamlı arxitekturaya və müasir frontend ən yaxşı təcrübələrinə güclü diqqət. Real iş mühitlərində istifadə olunan istehsala hazır tətbiqlər təqdim etmək üçün backend və məhsul komandaları ilə işləmək təcrübəsi.",
+        "viewProjects": "Layihələrə Bax",
+        "downloadCV": "CV Yüklə",
+        "contactMe": "Mənimlə Əlaqə"
+    },
+    "Projects": {
+        "title": "Layihələr",
+        "description": "Ölçeklenebilir, real vaxt və müəssisə səviyyəli tətbiqlər qurmaq sahəsindəki təcrübəmi nümayiş etdirən layihələr toplusu.",
+        "liveDemo": "Canlı Demo",
+        "source": "Mənbə Kod",
+        "items": {
+            "marduk": {
+                "title": "Marduk Finance",
+                "description": "Kripto və maliyyə bazarlarını real vaxt məlumatları, mürəkkəb qrafiklər, xüsusi göstəricilər və ağıllı siqnal sistemləri ilə izləməyə imkan verən hərtərəfli bazar izləmə və texniki analiz platforması.",
+                "tags": [
+                    "React",
+                    "Flutter",
+                    "WebSockets"
+                ]
+            },
+            "acun": {
+                "title": "Acun",
+                "description": "Xidməti avtomobillərə minən personalı real vaxt rejimində xəritə üzərindən izləmə sistemi.",
+                "tags": [
+                    "React",
+                    "Maps API"
+                ]
+            },
+            "ilgen": {
+                "title": "Ilgen",
+                "description": "Mobil tətbiq vasitəsilə göndərilən mesajların və zənglərin kurumsal səviyyədə izlənilməsi sistemi.",
+                "tags": [
+                    "Flutter"
+                ]
+            },
+            "iyekut": {
+                "title": "Iyekut",
+                "description": "NFC və ağıllı kartlara əsaslanan personalın giriş-çıxışına nəzarət sistemi.",
+                "tags": [
+                    "React",
+                    "IoT Integration"
+                ]
+            },
+            "pusula": {
+                "title": "Pusula",
+                "description": "Personalın xidmət, seans və nəqliyyat planlarını ətraflı idarə edə biləcəyi ağıllı paylama sistemi.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "kimlik": {
+                "title": "Kimlik",
+                "description": "İşçilərin firma, işə qəbul və çıxış tarixlərini göstərən İR sistemi.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "fuel": {
+                "title": "Fuel",
+                "description": "Donanma avtomobillərinin yanacaq sərfiyyatının anında izlənməsi, hesabatı və qeydiyyatı vasitəsi.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "pamir": {
+                "title": "Pamir",
+                "description": "Layihələrarası sənədlərə çıxış və icazələrə nəzarətin idarə olunduğu mərkəzi sistem.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "tahsildar": {
+                "title": "Tahsildar",
+                "description": "Virtual POS inteqrasiyası ilə ödəniş tarixçəsinin sorğulanması və ödənişlərin qəbulu sistemi.",
+                "tags": [
+                    "React",
+                    "Payment API"
+                ]
+            },
+            "ulak": {
+                "title": "Ulak",
+                "description": "Nəqliyyat baxımı, sığorta, qəza, cərimə, sürücü vəzifəsinin idarə edilməsi və canlı məkan izlənməsini əhatə edən kütləvi donanma idarəetmə sistemi.",
+                "tags": [
+                    "React",
+                    "Fleet Analytics"
+                ]
+            },
+            "berlinEsnaf": {
+                "title": "Berlin Esnaf",
+                "description": "Sənətkarlar və ticarətçilər üçün forum əsaslı icma və rabitə tətbiqi.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "getjob": {
+                "title": "Getjob",
+                "description": "İşəgötürənləri namizədlərlə birləşdirən müasir iş elanı və iş axtarışı platforması.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "buhara": {
+                "title": "Buhara Baharat",
+                "description": "Yerli ədviyyat istehsalçısı üçün tam fəaliyyət göstərən elektron ticarət veb saytı.",
+                "tags": [
+                    "React",
+                    "E-commerce"
+                ]
+            },
+            "demir": {
+                "title": "Demir Yıldızı",
+                "description": "Bir müəssisə üçün səbət və ödəniş kəmərinə qədər hərtərəfli elektron ticarət saytı.",
+                "tags": [
+                    "React",
+                    "E-commerce"
+                ]
+            },
+            "umay": {
+                "title": "Umay",
+                "description": "Tələbə davamiyyəti və qeyd statusunu izləyən idarəetmə və izləmə sistemi.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "yolbars": {
+                "title": "Yolbars",
+                "description": "Canlı xəritə üzərində marşrut çəkmə, yönləndirmə və naviqasiya üçün veb tətbiq.",
+                "tags": [
+                    "React",
+                    "Maps API"
+                ]
+            },
+            "sarraf": {
+                "title": "Sarraf Çıraylar",
+                "description": "Zərgərlik sənayesinin tələbləri üçün xüsusi olaraq optimallaşdırılmış e-ticarət platforması.",
+                "tags": [
+                    "React",
+                    "E-commerce"
+                ]
+            },
+            "aflying": {
+                "title": "A-Flying",
+                "description": "Ümumi məhsul idarəedilməsi, kampaniya və endirim elanları üçün mobil tətbiq.",
+                "tags": [
+                    "Flutter"
+                ]
+            },
+            "wisitcard": {
+                "title": "Wisitcard",
+                "description": "İstifadəçilərin rəqəmsal vizit kartları yaradıb QR vasitəsilə paylaşdığı profil idarəetmə sistemi.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "alliveri": {
+                "title": "Alliveri",
+                "description": "Şirkətlər və topdansatışçılar arasında sürətli sifariş yaradılmasını təmin edən B2B inteqrasiya platforması.",
+                "tags": [
+                    "React",
+                    "B2B"
+                ]
+            }
+        }
+    },
+    "Experience": {
+        "title": "Təcrübə",
+        "description": "Peşəkar karyera yolum və töhfə verdiyim şirkətlər.",
+        "items": {
+            "marduk": {
+                "period": "Sent 2025 - İndiyə qədər",
+                "company": "Marduk Software",
+                "role": "Frontend & Mobil Geliştirici (Flutter - React)",
+                "description": "Marduk Finance platformasının ön tərəf inkişaf proseslərinə rəhbərlik edirəm. Təkmil məlumat vizuallaşdırma kitabxanaları, texniki göstərici modülləri və fərdi rəsm alətləri ilə təchiz edilmiş interfeyslərin performans optimallaşdırılmasını tətbiq edirəm."
+            },
+            "yerlem": {
+                "period": "İyul 2023 - Sent 2025",
+                "company": "Yerlem Location Technologies",
+                "role": "Frontend & Mobil Geliştirici (Flutter - React)",
+                "description": "Müəssisə səviyyəsində telemetriya və canlı məkan izləmə tətbiqlərinin inkişafında aktiv rol oynadım. Acun, Ilgen, Iyekut, Pusula, Kimlik, Fuel, Pamir, Tahsildar və Ulak daxil olmaqla nəhəng məlumat axını tələb edən sistemləri sıfırdan dizayn edib qurmuşam."
+            },
+            "stechome": {
+                "period": "Noy 2022 - Mar 2023",
+                "company": "Stechome Software",
+                "role": "Frontend Geliştirici (React)",
+                "description": "Forum əsaslı icma platforması (Berlin Esnaf), iş qeydiyyatı sistemi (Getjob) və çoxsaylı elektron ticarət saytlarının arayüzünün tam inkişaf mərhələlərini idarə etdim."
+            },
+            "terra": {
+                "period": "Avq 2022 - Okt 2022",
+                "company": "Terra Software",
+                "role": "Təcrübəçi Frontend Geliştirici (React)",
+                "description": "Tələbə izləmə sistemi (Umay) və marşrut planlaşdırma proqramı (Yolbars) kimi layihələrdə əsas vəzifələri üzərimə götürdüm."
+            },
+            "freelance": {
+                "period": "Freelance",
+                "company": "Müstəqil Layihələr",
+                "role": "Frontend & Mobil Geliştirici",
+                "description": "Topdansatış müəssisə inteqrasiya platforması (Alliveri), zərgərlik e-ticarət (Sarraf Çıraylar), kampaniya mobil proqramı (A-Flying) və rəqəmsal vizit kartı sistemi (Wisitcard) daxil olmaqla bir çox müstəqil layihələr təslim etdim."
+            }
+        }
+    },
+    "Skills": {
+        "title": "Bacarıqlar & Texnologiyalar",
+        "description": "İdeyaları həyata keçirmək üçün istifadə etdiyim əsas vasitələr.",
+        "categories": {
+            "frontend": "Frontend",
+            "mobile": "Mobil",
+            "backend": "Backend",
+            "tools": "Alətlər"
+        }
+    },
+    "Blog": {
+        "title": "Bloq",
+        "description": "Frontend mühəndisliyi və sistem dizaynı haqqında fikirlər, təlimatlar və dərindən araşdırmalar."
+    },
+    "Contact": {
+        "title": "Əlaqə",
+        "description": "Birlikdə işləmək marağındasınız və ya sualınız var? Gəlin danışaq.",
+        "nameLabel": "Ad",
+        "namePlaceholder": "Əhməd Yılmaz",
+        "emailLabel": "E-poçt",
+        "emailPlaceholder": "ahmed@example.com",
+        "messageLabel": "Mesaj",
+        "messagePlaceholder": "Salam, bununla bağlı danışmaq istərdim...",
+        "sendButton": "Mesaj Göndər",
+        "sendingButton": "Göndərilir...",
+        "successTitle": "Mesaj Göndərildi!",
+        "successDesc": "Əlaqə saxladığınız üçün təşəkkür edirik. Mümkün qədər tez sizə geri dönəcəyəm.",
+        "sendAnother": "Başqa bir mesaj göndər"
+    },
+    "Footer": {
+        "builtBy": "Necmettin Zivlak tərəfindən hazırlanmışdır."
+    },
+    "Common": {
+        "toggleTheme": "Temanı dəyiş",
+        "toggleLanguage": "Dili dəyiş"
+    }
+}

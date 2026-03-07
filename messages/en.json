@@ -1,0 +1,248 @@
+{
+    "Navigation": {
+        "projects": "Projects",
+        "experience": "Experience",
+        "skills": "Skills",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "title": "Necmettin Zivlak | Frontend Engineer",
+        "subtitle": "React • Next.js • TypeScript • Flutter",
+        "description": "Frontend and Mobile Developer with 3+ years of experience building scalable web and mobile applications using React, Next.js, TypeScript, and Flutter. Experienced in developing fintech platforms, real-time monitoring systems, and enterprise operational tools. Strong focus on performance optimization, maintainable architecture, and modern frontend best practices. Experienced in collaborating with backend and product teams to deliver production-ready applications used in real business environments.",
+        "viewProjects": "View Projects",
+        "downloadCV": "Download CV",
+        "contactMe": "Contact Me"
+    },
+    "Projects": {
+        "title": "Projects",
+        "description": "A collection of projects showcasing my expertise in building scalable, real-time, and enterprise-grade applications.",
+        "liveDemo": "Live Demo",
+        "source": "Source",
+        "items": {
+            "marduk": {
+                "title": "Marduk Finance",
+                "description": "Comprehensive market tracking and technical analysis platform utilizing real-time price feeds, advanced charts, custom technical indicators, and intelligent alerting systems.",
+                "tags": [
+                    "React",
+                    "Flutter",
+                    "WebSockets"
+                ]
+            },
+            "acun": {
+                "title": "Acun",
+                "description": "Real-time map tracking system for monitoring personnel boarding shuttle vehicles.",
+                "tags": [
+                    "React",
+                    "Maps API"
+                ]
+            },
+            "ilgen": {
+                "title": "Ilgen",
+                "description": "Enterprise-level system for monitoring mobile application messages and calls.",
+                "tags": [
+                    "Flutter"
+                ]
+            },
+            "iyekut": {
+                "title": "Iyekut",
+                "description": "NFC and smart card-based personnel entry-exit tracking system.",
+                "tags": [
+                    "React",
+                    "IoT Integration"
+                ]
+            },
+            "pusula": {
+                "title": "Pusula",
+                "description": "Smart distribution and planning system allowing personnel to manage shuttle, session, and transit plans.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "kimlik": {
+                "title": "Kimlik",
+                "description": "HR system displaying employee corporate details, start-end dates, and employment rights.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "fuel": {
+                "title": "Fuel",
+                "description": "Tool for live tracking, reporting, and recording the fuel consumption of fleet vehicles.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "pamir": {
+                "title": "Pamir",
+                "description": "Centralized system managing cross-project file access and permission control.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "tahsildar": {
+                "title": "Tahsildar",
+                "description": "Virtual POS integration system for querying payment histories, taking payments, and generating reports.",
+                "tags": [
+                    "React",
+                    "Payment API"
+                ]
+            },
+            "ulak": {
+                "title": "Ulak",
+                "description": "Massive fleet management system covering real-time tracking, maintenance, service logs, insurance, accidents, and driver duty allocations.",
+                "tags": [
+                    "React",
+                    "Fleet Analytics"
+                ]
+            },
+            "berlinEsnaf": {
+                "title": "Berlin Esnaf",
+                "description": "Forum-based community and communication app specifically built for tradesmen and artisans.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "getjob": {
+                "title": "Getjob",
+                "description": "Modern job listing and search platform connecting employers with candidates.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "buhara": {
+                "title": "Buhara Baharat",
+                "description": "Full-fledged e-commerce website infrastructure for a local spice producer.",
+                "tags": [
+                    "React",
+                    "E-commerce"
+                ]
+            },
+            "demir": {
+                "title": "Demir Yıldızı",
+                "description": "End-to-end e-commerce site with cart and checkout pipeline for an industrial business.",
+                "tags": [
+                    "React",
+                    "E-commerce"
+                ]
+            },
+            "umay": {
+                "title": "Umay",
+                "description": "Management tracking system monitoring student attendance and academic grades.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "yolbars": {
+                "title": "Yolbars",
+                "description": "Map-based web application for drawing paths, routing, and directional navigation on a live map.",
+                "tags": [
+                    "React",
+                    "Maps API"
+                ]
+            },
+            "sarraf": {
+                "title": "Sarraf Çıraylar",
+                "description": "E-commerce platform exclusively optimized for the jewelry sector product requirements.",
+                "tags": [
+                    "React",
+                    "E-commerce"
+                ]
+            },
+            "aflying": {
+                "title": "A-Flying",
+                "description": "Native-feeling mobile app for general product management, campaigns, and discount announcements.",
+                "tags": [
+                    "Flutter"
+                ]
+            },
+            "wisitcard": {
+                "title": "Wisitcard",
+                "description": "Profile management system where users can generate and share digital business cards via QR.",
+                "tags": [
+                    "React"
+                ]
+            },
+            "alliveri": {
+                "title": "Alliveri",
+                "description": "High-volume B2B integration platform accelerating order creation between companies and wholesalers.",
+                "tags": [
+                    "React",
+                    "B2B"
+                ]
+            }
+        }
+    },
+    "Experience": {
+        "title": "Experience",
+        "description": "My professional journey and the companies where I've contributed.",
+        "items": {
+            "marduk": {
+                "period": "Sep 2025 - Present",
+                "company": "Marduk Software",
+                "role": "Frontend & Mobile Developer (Flutter - React)",
+                "description": "Spearheading the frontend development of the Marduk Finance platform, designed for stock market and crypto tracking. Architecting performance optimizations for interfaces equipped with advanced data visualization libraries, technical indicator modules, and custom drawing tools."
+            },
+            "yerlem": {
+                "period": "Jul 2023 - Sep 2025",
+                "company": "Yerlem Location Technologies",
+                "role": "Frontend & Mobile Developer (Flutter - React)",
+                "description": "Played a central role in developing enterprise-grade telemetry and live tracking apps. Designed and deployed massive data-streaming systems completely from scratch including Acun, Ilgen, Iyekut, Pusula, Kimlik, Fuel, Pamir, Tahsildar, and Ulak."
+            },
+            "stechome": {
+                "period": "Nov 2022 - Mar 2023",
+                "company": "Stechome Software",
+                "role": "Frontend Developer (React)",
+                "description": "Managed the end-to-end frontend development lifecycles for a forum community platform (Berlin Esnaf), a job listing app (Getjob), and multiple e-commerce pipelines, delivering stable products to end users."
+            },
+            "terra": {
+                "period": "Aug 2022 - Oct 2022",
+                "company": "Terra Software",
+                "role": "Intern Frontend Developer (React)",
+                "description": "Taking on core responsibilities in projects like the student tracking system (Umay) and route planning software (Yolbars), while mastering essential software design patterns and modern architecture principles."
+            },
+            "freelance": {
+                "period": "Freelance",
+                "company": "Independent Projects",
+                "role": "Frontend & Mobile Developer",
+                "description": "Delivered numerous independent client projects. Notable platforms include a B2B wholesaler integration layer (Alliveri), tailored jewelry e-commerce (Sarraf Çıraylar), a campaign mobile app (A-Flying) and a digital contact card system (Wisitcard)."
+            }
+        }
+    },
+    "Skills": {
+        "title": "Skills & Technologies",
+        "description": "The core tools I use to bring ideas to life.",
+        "categories": {
+            "frontend": "Frontend",
+            "mobile": "Mobile",
+            "backend": "Backend",
+            "tools": "Tools"
+        }
+    },
+    "Blog": {
+        "title": "Blog",
+        "description": "Insights, tutorials, and deep dives into frontend engineering and system design."
+    },
+    "Contact": {
+        "title": "Contact",
+        "description": "Interested in working together or have a question? Let's talk.",
+        "nameLabel": "Name",
+        "namePlaceholder": "John Doe",
+        "emailLabel": "Email",
+        "emailPlaceholder": "john@example.com",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Hi, I'd like to talk about...",
+        "sendButton": "Send Message",
+        "sendingButton": "Sending...",
+        "successTitle": "Message Sent!",
+        "successDesc": "Thank you for reaching out. I'll get back to you as soon as possible.",
+        "sendAnother": "Send another message"
+    },
+    "Footer": {
+        "builtBy": "Built by Necmettin Zivlak."
+    },
+    "Common": {
+        "toggleTheme": "Toggle theme",
+        "toggleLanguage": "Toggle language"
+    }
+}

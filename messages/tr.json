@@ -1,5 +1,6 @@
 {
     "Navigation": {
+        "home": "Ana sayfa",
         "projects": "Projeler",
         "experience": "Deneyim",
         "skills": "Yetenekler",
@@ -7,28 +8,41 @@
         "contact": "İletişim"
     },
     "Hero": {
-        "title": "Necmettin Zivlak | Frontend Engineer",
-        "subtitle": "React • Next.js • TypeScript • Flutter",
-        "description": "React, Next.js, TypeScript ve Flutter kullanarak ölçeklenebilir web ve mobil uygulamalar geliştirme konusunda 3+ yıl deneyime sahip Frontend ve Mobil Geliştirici. Fintech platformları, gerçek zamanlı izleme sistemleri ve kurumsal operasyonel araçlar geliştirme konusunda tecrübeli. Performans optimizasyonu, sürdürülebilir mimari ve modern frontend en iyi uygulamalarına güçlü odaklı. Gerçek iş ortamlarında kullanılan, üretime hazır uygulamalar sunmak için backend ve ürün ekipleriyle çalışma deneyimi.",
-        "viewProjects": "Projeleri İncele",
+        "title": "Necmettin Zivlak — Frontend ve Mobil Geliştirici",
+        "role": "Frontend ve Mobil Geliştirici",
+        "lead": "Flutter, React, Next.js ve TypeScript ile web ve mobil ürünler geliştiriyorum. Merkezde gerçek zamanlı sistemler var: WebSocket akışları, etkileşimli görselleştirme ve özel Canvas grafik motorları. Fintech analitiği ve kurumsal filo sistemleri; web, iOS ve Android.",
+        "stack": "Flutter · React · Next.js · TypeScript",
+        "availability": "Yeni işlere açığım",
+        "location": "Konya, Türkiye",
+        "years": "4+ yıl",
+        "viewWork": "İşlere bak",
+        "contact": "İletişime geç",
+        "description": "Flutter, React, Next.js ve TypeScript ile gerçek zamanlı fintech analitiği ve kurumsal filo sistemleri geliştiren frontend ve mobil geliştirici.",
+        "subtitle": "Flutter · React · Next.js · TypeScript",
+        "viewProjects": "İşlere bak",
         "downloadCV": "CV İndir",
-        "contactMe": "Benimle İletişime Geç"
+        "contactMe": "İletişime geç"
     },
     "Projects": {
         "title": "Projeler",
-        "description": "Ölçeklenebilir, gerçek zamanlı ve kurumsal düzeyde uygulamalar geliştirme uzmanlığımı sergileyen projeler.",
+        "description": "Tasarladığım ve geliştirdiğim sistemlerin dizini. Sorunun türüne göre süzün.",
+        "filterLabel": "Alana göre süz",
+        "domains": {
+            "all": "Tümü",
+            "markets": "Piyasa",
+            "operations": "Operasyon",
+            "commerce": "Ticaret",
+            "platforms": "Platform"
+        },
+        "contexts": {
+            "sadaapex": "SadaApex",
+            "yerlem": "Yerlem",
+            "stechome": "Stechome",
+            "terra": "Terra"
+        },
         "liveDemo": "Canlı Demo",
         "source": "Kaynak Kod",
         "items": {
-            "marduk": {
-                "title": "Marduk Finance",
-                "description": "Kripto ve finans piyasalarını gerçek zamanlı veriler, ileri seviye grafikler, indikatörler ve akıllı alarm sistemleri ile takip etmeyi sağlayan kapsamlı piyasa izleme ve teknik analiz platformu.",
-                "tags": [
-                    "React",
-                    "Flutter",
-                    "WebSockets"
-                ]
-            },
             "acun": {
                 "title": "Acun",
                 "description": "Personelin servis araçlarına binişlerinin canlı harita üzerinden anlık olarak takip edilmesi sistemi.",
@@ -38,14 +52,14 @@
                 ]
             },
             "ilgen": {
-                "title": "Ilgen",
+                "title": "İlgen",
                 "description": "Mobil uygulama üzerinden gönderilen mesaj ve aramaların kurumsal düzeyde izlenmesi sistemi.",
                 "tags": [
                     "Flutter"
                 ]
             },
             "iyekut": {
-                "title": "Iyekut",
+                "title": "İyekut",
                 "description": "NFC ve akıllı kart tabanlı donanımlarla entegre personel giriş-çıkış takip sistemi.",
                 "tags": [
                     "React",
@@ -141,71 +155,45 @@
                     "Maps API"
                 ]
             },
-            "sarraf": {
-                "title": "Sarraf Çıraylar",
-                "description": "Kuyumculuk sektörüne ve ürün gereksinimlerine yönelik özel optimize e-commerce platformu.",
+            "sadaapex": {
+                "title": "SadaApex",
+                "description": "iOS ve Android için üretimdeki gerçek zamanlı kripto teknik analiz uygulaması. Özel Flutter Canvas motoru kaydırma, yakınlaştırma, imleç takibi, 80'den fazla gösterge ve 90'dan fazla çizim aracı sunar. Spot ve vadeli veriler Binance, Bitget ve Bybit üzerinden WebSocket ile gelir.",
                 "tags": [
-                    "React",
-                    "E-commerce"
-                ]
-            },
-            "aflying": {
-                "title": "A-Flying",
-                "description": "Genel ürün yönetimi, kampanya entegrasyonu ve indirim duyuruları için native hisli mobil uygulama.",
-                "tags": [
-                    "Flutter"
-                ]
-            },
-            "wisitcard": {
-                "title": "Wisitcard",
-                "description": "Kullanıcıların dijital kartvizit oluşturup karekod aracılığıyla paylaştığı profil yönetim sistemi.",
-                "tags": [
-                    "React"
-                ]
-            },
-            "alliveri": {
-                "title": "Alliveri",
-                "description": "Firmalar ile toptancılar arasında anında sipariş oluşturmayı sağlayan yüksek hacimli B2B entegrasyon platformu.",
-                "tags": [
-                    "React",
-                    "B2B"
+                    "Flutter",
+                    "Riverpod",
+                    "Canvas",
+                    "WebSocket"
                 ]
             }
         }
     },
     "Experience": {
         "title": "Deneyim",
-        "description": "Profesyonel kariyer yolculuğum ve katkıda bulunduğum şirketler.",
+        "description": "2022 stajından üretimdeki kripto analiz uygulamasına. Dört rol.",
         "items": {
-            "marduk": {
-                "period": "Eyl 2025 - Günümüz",
-                "company": "Marduk Software",
-                "role": "Frontend & Mobil Geliştirici (Flutter - React)",
-                "description": "Borsa ve finans takibi için tasarlanan Marduk Finance platformunun frontend geliştirme süreçlerini yürütmekteyim. Gelişmiş veri görselleştirme kütüphaneleri, teknik indikatör modülleri ve özel çizim araçları ile donatılmış arayüzlerin performans optimizasyonunu kurguluyorum."
+            "sadaapex": {
+                "period": "Eylül 2025 – Ekim 2026",
+                "company": "SadaApex",
+                "role": "Frontend & Mobil Geliştirici",
+                "description": "Flutter, Riverpod ve Clean Architecture ile iOS ve Android için gerçek zamanlı kripto teknik analiz uygulamasını tasarladım ve geliştirdim. Kaydırma, yakınlaştırma, dinamik imleç, 80'den fazla teknik gösterge ve 90'dan fazla çizim aracı olan özel bir Flutter Canvas grafik motoru kurdum. Binance, Bitget ve Bybit WebSocket akışlarıyla spot ve vadeli veriyi bağladım; likidasyon ısı haritaları, fonlama oranı tarayıcıları, büyük işlem akışı, long/short oranları ve Hyperliquid balina analizlerini ekledim."
             },
             "yerlem": {
-                "period": "Tem 2023 - Eyl 2025",
-                "company": "Yerlem Location Technologies",
-                "role": "Frontend & Mobil Geliştirici (Flutter - React)",
-                "description": "Kurumsal düzeydeki telemetri ve canlı konum takip uygulamalarının geliştirilmesinde aktif rol oynadım. Acun, Ilgen, Iyekut, Pusula, Kimlik, Fuel, Pamir, Tahsildar ve Ulak gibi devasa veri akışı gerektiren sistemleri baştan uca tasarlayıp devreye aldım."
+                "period": "Temmuz 2023 – Eylül 2025",
+                "company": "Yerlem Lokasyon Teknolojileri",
+                "role": "Frontend & Mobil Geliştirici",
+                "description": "İş gücü yönetimi, filo takibi, ödeme sistemleri ve canlı telemetri için kurumsal web ve mobil uygulamaları React, TypeScript ve Flutter ile geliştirdim. Harita arayüzleri yüzlerce araç ve personeli eş zamanlı izledi. Ulak, Tahsildar, Acun, Pusula, İyekut, Kimlik, Fuel, İlgen ve Pamir dahil dokuzdan fazla ürünün geliştirilmesine ve canlıya alınmasına katkı verdim."
             },
             "stechome": {
-                "period": "Kas 2022 - Mar 2023",
-                "company": "Stechome Software",
-                "role": "Frontend Geliştirici (React)",
-                "description": "Forum tabanlı topluluk platformu (Berlin Esnaf), iş ilanı sistemi (Getjob) ve çoklu e-commerce sitelerinin uçtan uca arayüz geliştirme aşamalarını yönettim ve son kullanıcılara stabil ürünler sundum."
+                "period": "Kasım 2022 – Mart 2023",
+                "company": "Stechome Yazılım",
+                "role": "Frontend & Mobil Geliştirici",
+                "description": "E-ticaret, işe alım ve topluluk platformları için React ile duyarlı web uygulamaları geliştirdim. Berlin Esnaf, Getjob, Buhara Baharat ve Demir Yıldızı için temel arayüz bileşenlerini ve işlevsel modülleri teslim ettim."
             },
             "terra": {
-                "period": "Ağu 2022 - Eki 2022",
+                "period": "Ağustos 2022 – Ekim 2022",
                 "company": "Terra Software",
-                "role": "Stajyer Frontend Geliştirici (React)",
-                "description": "Temel yazılım prensiplerini ve modern mimari kalıplarını uygulayarak, öğrenci takip sistemi (Umay) ve güzergâh planlama yazılımı (Yolbars) gibi projelerde çekirdek görevler üstlendim."
-            },
-            "freelance": {
-                "period": "Freelance",
-                "company": "Serbest / Bağımsız İşler",
-                "role": "Frontend & Mobil Geliştirici",
-                "description": "Birçok bağımsız müşteri projesi yürüttüm. Bunlar arasında toptancı entegrasyon platformları (Alliveri), özel kuyumcu e-commerce'leri (Sarraf Çıraylar), ürün kampanyaları mobil uygulaması (A-Flying) ve dijital kartvizit sistemi (Wisitcard) bulunuyor."
+                "role": "Frontend Geliştirici Stajyeri",
+                "description": "Umay kurumsal öğrenci takip sisteminin arayüz bileşenlerini geliştirdim. Yolbars ile canlı harita üzerinde ulaşım rotalarının çizilmesini ve yönetilmesini sağlayan etkileşimli bir web uygulaması kurdum."
             }
         }
     },
@@ -216,7 +204,8 @@
             "frontend": "Frontend",
             "mobile": "Mobil",
             "backend": "Backend",
-            "tools": "Araçlar"
+            "tools": "Araçlar",
+            "realtime": "Gerçek zamanlı"
         }
     },
     "Blog": {
@@ -225,7 +214,7 @@
     },
     "Contact": {
         "title": "İletişim",
-        "description": "Birlikte çalışmak ister misiniz veya bir sorunuz mu var? Konuşalım.",
+        "description": "Bir rol, bir ürün ya da bir soru. En hızlı yol e-posta.",
         "nameLabel": "İsim",
         "namePlaceholder": "Ahmet Yılmaz",
         "emailLabel": "E-posta",
@@ -236,13 +225,97 @@
         "sendingButton": "Gönderiliyor...",
         "successTitle": "Mesaj Gönderildi!",
         "successDesc": "Ulaştığınız için teşekkürler. Size en kısa sürede dönüş yapacağım.",
-        "sendAnother": "Başka bir mesaj gönder"
+        "sendAnother": "Başka bir mesaj gönder",
+        "asideTitle": "Doğrudan",
+        "asideBody": "Bir rol, bir ürün ya da üretimde ayakta kalması gereken bir arayüz için.",
+        "missingFields": "İsim, e-posta ve mesaj gerekli.",
+        "genericError": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
+    },
+    "Home": {
+        "proofFocusLabel": "Odak",
+        "proofFocusValue": "Gerçek zamanlı arayüzler",
+        "proofDomainLabel": "Alanlar",
+        "proofDomainValue": "Fintech, filo",
+        "proofStackLabel": "Teknoloji",
+        "proofStackValue": "Flutter, React, TypeScript",
+        "proofLangLabel": "Diller",
+        "proofLangValue": "Türkçe, İngilizce",
+        "workIndex": "01 — İş",
+        "workTitle": "Yapılan projeler",
+        "workNote": "Canlı kripto analizi, filo operasyonu, ödeme ve harita takibi. Dizinin kalanı bir sayfa ötede.",
+        "allWork": "Tüm dizin",
+        "viewProject": "Projeyi gör",
+        "expIndex": "02 — Deneyim",
+        "expTitle": "Nerede yayınlandı",
+        "expNote": "Yazılımın kullanımda kaldığı roller.",
+        "fullExp": "Tüm kayıt",
+        "capIndex": "03 — Yetenek",
+        "capTitle": "Nasıl çalışırım",
+        "capNote": "Yığının kısa haritası. Derinlik logolarda değil, ürünlerde.",
+        "bgIndex": "04 — Arka plan",
+        "bgTitle": "Eğitim ve diller",
+        "contactTitle": "İşe alıyorsanız buradan başlayın.",
+        "contactNote": "Kısa bir not yeter. Her mesajı okurum."
+    },
+    "Background": {
+        "education": "Eğitim",
+        "languages": "Diller",
+        "schools": {
+            "anadolu": {
+                "school": "Anadolu Üniversitesi",
+                "program": "Yönetim Bilişim Sistemleri, Lisans",
+                "period": "2023 – 2026"
+            },
+            "konya": {
+                "school": "Konya Teknik Üniversitesi",
+                "program": "Bilgisayar Programcılığı / Bilgisayar Teknolojileri, Ön Lisans",
+                "period": "2021 – 2023"
+            }
+        },
+        "langs": {
+            "tr": {
+                "name": "Türkçe",
+                "level": "Anadil"
+            },
+            "en": {
+                "name": "İngilizce",
+                "level": "Profesyonel çalışma yetkinliği"
+            }
+        },
+        "references": "Referanslar",
+        "refs": {
+            "ramazan": {
+                "name": "Ramazan Küçük",
+                "role": "Lead Product Manager, Oak Technology"
+            },
+            "cagri": {
+                "name": "Çağrı Tepebaşılı",
+                "role": "Chief Technology Officer, Yerlem Lokasyon Teknolojileri"
+            },
+            "said": {
+                "name": "Said Baysal",
+                "role": "Chief Technology Officer, SadaApex"
+            }
+        }
+    },
+    "NotFound": {
+        "title": "Bu sayfa burada değil",
+        "description": "Adres değişmiş olabilir. İşler ana sayfada duruyor.",
+        "back": "Ana sayfaya dön"
     },
     "Footer": {
-        "builtBy": "Necmettin Zivlak tarafından geliştirildi."
+        "builtBy": "Necmettin Zivlak",
+        "role": "Frontend ve Mobil Geliştirici",
+        "note": "Fintech ve filo operasyonları için gerçek zamanlı arayüzler."
     },
     "Common": {
         "toggleTheme": "Temayı değiştir",
-        "toggleLanguage": "Dili değiştir"
+        "toggleLanguage": "Dili değiştir",
+        "light": "Açık",
+        "dark": "Koyu",
+        "system": "Sistem",
+        "menu": "Menü",
+        "close": "Kapat",
+        "skip": "İçeriğe geç"
     }
 }

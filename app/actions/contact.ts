@@ -7,7 +7,7 @@ export async function submitContact(formData: FormData) {
 
     // Validate
     if (!name || !email || !message) {
-        return { success: false, error: "Missing fields" }
+        return { success: false, error: "missing" as const }
     }
 
     // In a real application, you would integrate Resend or EmailJS here:
@@ -16,5 +16,5 @@ export async function submitContact(formData: FormData) {
     // Simulate network delay
     await new Promise((resolve) => setTimeout(resolve, 1500))
 
-    return { success: true }
+    return { success: true as const }
 }

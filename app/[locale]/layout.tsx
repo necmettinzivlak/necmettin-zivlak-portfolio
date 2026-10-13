@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Newsreader, Outfit } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -7,12 +7,19 @@ import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
+import { Atmosphere } from '@/components/atmosphere';
 import { Analytics } from "@vercel/analytics/react";
 import "../globals.css";
 
 const outfit = Outfit({
     variable: "--font-outfit",
     subsets: ["latin"],
+});
+
+const newsreader = Newsreader({
+    variable: "--font-newsreader",
+    subsets: ["latin"],
+    style: ["normal", "italic"],
 });
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -24,6 +31,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         icons: {
             icon: '/icon.svg',
             apple: '/apple-icon.svg',
+        },
+        openGraph: {
+            title: t('title'),
+            description: t('description'),
+            locale,
+            type: "website",
         },
     };
 }
@@ -42,20 +55,28 @@ export default async function LocaleLayout({
     }
 
     const messages = await getMessages();
+    const t = await getTranslations({ locale, namespace: 'Common' });
 
     return (
-        <html lang={locale} className="dark" suppressHydrationWarning>
-            <body className={`${outfit.variable} font-sans antialiased bg-background text-foreground`}>
+        <html lang={locale} className={`${outfit.variable} ${newsreader.variable}`} suppressHydrationWarning>
+            <body className="min-h-screen bg-background font-sans text-foreground antialiased">
                 <NextIntlClientProvider messages={messages}>
                     <ThemeProvider
                         attribute="class"
-                        defaultTheme="system"
+                        defaultTheme="dark"
                         enableSystem
                         disableTransitionOnChange
                     >
-                        <div className="relative flex min-h-screen flex-col">
+                        <a
+                            href="#content"
+                            className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
+                        >
+                            {t('skip')}
+                        </a>
+                        <Atmosphere />
+                        <div className="relative z-10 flex min-h-screen flex-col pb-20 md:pb-0">
                             <Navbar />
-                            <main className="flex-1">{children}</main>
+                            <main id="content" className="flex-1">{children}</main>
                             <Footer />
                         </div>
                     </ThemeProvider>

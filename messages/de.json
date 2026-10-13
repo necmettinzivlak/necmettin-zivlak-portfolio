@@ -1,5 +1,6 @@
 {
     "Navigation": {
+        "home": "Start",
         "projects": "Projekte",
         "experience": "Erfahrung",
         "skills": "Fähigkeiten",
@@ -7,28 +8,41 @@
         "contact": "Kontakt"
     },
     "Hero": {
-        "title": "Necmettin Zivlak | Frontend Engineer",
-        "subtitle": "React • Next.js • TypeScript • Flutter",
-        "description": "Frontend- und Mobile-Entwickler mit über 3 Jahren Erfahrung in der Entwicklung skalierbarer Web- und Mobile-Anwendungen mit React, Next.js, TypeScript und Flutter. Erfahren in der Entwicklung von Fintech-Plattformen, Echtzeit-Überwachungssystemen und operativen Tools für Unternehmen. Starker Fokus auf Leistungsoptimierung, wartbare Architektur und moderne Best Practices im Frontend. Erfahren in der Zusammenarbeit mit Backend- und Produktteams zur Bereitstellung produktionsbereiter Anwendungen für reale Geschäftsumgebungen.",
-        "viewProjects": "Projekte ansehen",
+        "title": "Necmettin Zivlak — Frontend- und Mobile-Entwickler",
+        "role": "Frontend- und Mobile-Entwickler",
+        "lead": "Ich entwickle Web- und Mobile-Produkte mit Flutter, React, Next.js und TypeScript. Im Zentrum steht Echtzeit: WebSocket-Ströme, interaktive Visualisierung und eigene Canvas-Charts für Fintech-Analysen und Flottensysteme, auf Web, iOS und Android.",
+        "stack": "Flutter · React · Next.js · TypeScript",
+        "availability": "Offen für neue Rollen",
+        "location": "Konya, Türkei",
+        "years": "4+ Jahre",
+        "viewWork": "Arbeit ansehen",
+        "contact": "Kontakt",
+        "description": "Frontend- und Mobile-Entwickler für Echtzeit-Fintech-Analysen und Unternehmensflotten mit Flutter, React, Next.js und TypeScript.",
+        "subtitle": "Flutter · React · Next.js · TypeScript",
+        "viewProjects": "Arbeit ansehen",
         "downloadCV": "Lebenslauf herunterladen",
-        "contactMe": "Kontaktiere mich"
+        "contactMe": "Kontakt"
     },
     "Projects": {
         "title": "Projekte",
-        "description": "Eine Sammlung von Projekten, die meine Expertise in der Entwicklung skalierbarer, Echtzeit- und Enterprise-Anwendungen zeigen.",
+        "description": "Ein Index der Systeme, die ich entworfen und gebaut habe. Nach Art des Problems filtern.",
+        "filterLabel": "Nach Bereich filtern",
+        "domains": {
+            "all": "Alle",
+            "markets": "Märkte",
+            "operations": "Betrieb",
+            "commerce": "Handel",
+            "platforms": "Plattformen"
+        },
+        "contexts": {
+            "sadaapex": "SadaApex",
+            "yerlem": "Yerlem",
+            "stechome": "Stechome",
+            "terra": "Terra"
+        },
         "liveDemo": "Live-Demo",
         "source": "Quellcode",
         "items": {
-            "marduk": {
-                "title": "Marduk Finance",
-                "description": "Umfassende Marktüberwachungs- und technische Analyseplattform mit Echtzeit-Preis-Feeds, fortschrittlichen Diagrammen, benutzerdefinierten technischen Indikatoren und intelligenten Warnsystemen.",
-                "tags": [
-                    "React",
-                    "Flutter",
-                    "WebSockets"
-                ]
-            },
             "acun": {
                 "title": "Acun",
                 "description": "Echtzeit-Kartenverfolgungssystem zur Überwachung von Personal in Shuttle-Fahrzeugen.",
@@ -141,71 +155,45 @@
                     "Maps API"
                 ]
             },
-            "sarraf": {
-                "title": "Sarraf Çıraylar",
-                "description": "Exklusive E-Commerce-Plattform optimiert für die Anforderungen der Schmuckbranche.",
+            "sadaapex": {
+                "title": "SadaApex",
+                "description": "Produktionsreife Krypto-Analyse-App für iOS und Android. Eine eigene Flutter-Canvas-Engine mit Verschieben, Zoom, Fadenkreuz, über 80 Indikatoren und über 90 Zeichenwerkzeugen. Spot- und Futures-Daten per WebSocket von Binance, Bitget und Bybit.",
                 "tags": [
-                    "React",
-                    "E-commerce"
-                ]
-            },
-            "aflying": {
-                "title": "A-Flying",
-                "description": "Native Mobile-App für das allgemeine Produktmanagement, Kampagnen und Rabattankündigungen.",
-                "tags": [
-                    "Flutter"
-                ]
-            },
-            "wisitcard": {
-                "title": "Wisitcard",
-                "description": "Profilverwaltungssystem zum Generieren und Teilen von digitalen Visitenkarten per QR-Code.",
-                "tags": [
-                    "React"
-                ]
-            },
-            "alliveri": {
-                "title": "Alliveri",
-                "description": "Großvolumige B2B-Integrationsplattform zur Beschleunigung der Bestellungen zwischen Unternehmen und Großhändlern.",
-                "tags": [
-                    "React",
-                    "B2B"
+                    "Flutter",
+                    "Riverpod",
+                    "Canvas",
+                    "WebSocket"
                 ]
             }
         }
     },
     "Experience": {
         "title": "Erfahrung",
-        "description": "Meine berufliche Laufbahn und die Unternehmen, bei denen ich mitgewirkt habe.",
+        "description": "Vier Stationen, vom Praktikum 2022 bis zur Krypto-Analyse-App in Produktion.",
         "items": {
-            "marduk": {
-                "period": "Sep 2025 - Heute",
-                "company": "Marduk Software",
-                "role": "Frontend & Mobile Developer (Flutter - React)",
-                "description": "Leitung der Frontend-Entwicklung der Marduk Finance-Plattform, konzipiert für Börsen- und Krypto-Tracking. Archivierung von Leistungsoptimierungen für Schnittstellen, die mit fortschrittlichen Datenvisualisierungsbibliotheken und technischen Indikatoren ausgestattet sind."
+            "sadaapex": {
+                "period": "September 2025 – Oktober 2026",
+                "company": "SadaApex",
+                "role": "Frontend- und Mobile-Entwickler",
+                "description": "Eine produktionsreife Echtzeit-App zur technischen Krypto-Analyse für iOS und Android mit Flutter, Riverpod und Clean Architecture aufgebaut. Die eigene Canvas-Chart-Engine bietet Verschieben, Zoom, ein dynamisches Fadenkreuz, über 80 Indikatoren und über 90 Zeichenwerkzeuge. Spot- und Futures-Daten laufen per WebSocket von Binance, Bitget und Bybit, ergänzt um Liquidations-Heatmaps, Funding-Rate-Scanner, Large-Trade-Flow, Long/Short-Verhältnisse und Hyperliquid-Whale-Analysen."
             },
             "yerlem": {
-                "period": "Jul 2023 - Sep 2025",
-                "company": "Yerlem Location Technologies",
-                "role": "Frontend & Mobile Developer (Flutter - React)",
-                "description": "Spiele eine zentrale Rolle bei der Entwicklung von Enterprise-Telemetrie- und Live-Tracking-Apps. Design und Bereitstellung massiver Daten-Streaming-Systeme von Grund auf, einschließlich Acun, Ilgen, Iyekut, Pusula, Kimlik, Fuel, Pamir, Tahsildar und Ulak."
+                "period": "Juli 2023 – September 2025",
+                "company": "Yerlem Location Tech",
+                "role": "Frontend- und Mobile-Entwickler",
+                "description": "Unternehmensanwendungen für Personal, Flotte, Zahlungen und Live-Telemetrie mit React, TypeScript und Flutter entwickelt und betreut. Kartenoberflächen verfolgten hunderte Fahrzeuge und Personen gleichzeitig. Beitrag zu neun Kernprodukten: Ulak, Tahsildar, Acun, Pusula, Iyekut, Kimlik, Fuel, Ilgen und Pamir."
             },
             "stechome": {
-                "period": "Nov 2022 - Mär 2023",
+                "period": "November 2022 – März 2023",
                 "company": "Stechome Software",
-                "role": "Frontend Developer (React)",
-                "description": "Verwaltung der End-to-End-Frontend-Entwicklungszyklen für eine Forenplattform (Berlin Esnaf), eine Job-App (Getjob) und mehrere E-Commerce-Pipelines."
+                "role": "Frontend- und Mobile-Entwickler",
+                "description": "Responsive Webanwendungen für Handel, Recruiting und Community-Plattformen mit React gebaut. Kernoberflächen und Funktionsmodule für Berlin Esnaf, Getjob, Buhara Baharat und Demir Yıldızı geliefert."
             },
             "terra": {
-                "period": "Aug 2022 - Okt 2022",
+                "period": "August 2022 – Oktober 2022",
                 "company": "Terra Software",
-                "role": "Intern Frontend Developer (React)",
-                "description": "Übernahme zentraler Verantwortlichkeiten in Projekten wie dem Studentenverwaltungssystem (Umay) und der Routenplanungssoftware (Yolbars)."
-            },
-            "freelance": {
-                "period": "Freiberuflich",
-                "company": "Unabhängige Projekte",
-                "role": "Frontend & Mobile Developer",
-                "description": "Bereitstellung zahlreicher unabhängiger Kundenprojekte. Zu den bemerkenswerten Plattformen gehören eine B2B-Großhandelsintegrationsschicht (Alliveri), exklusive Schmuck-E-Commerce (Sarraf Çıraylar), eine Kampagnen-Mobile-App (A-Flying) und ein digitales Visitenkartensystem (Wisitcard)."
+                "role": "Frontend-Praktikant",
+                "description": "Oberflächenkomponenten für Umay, ein institutionelles Studentenverfolgungssystem, und Yolbars, eine interaktive Webanwendung zum Zeichnen und Verwalten von Transportrouten auf einer Live-Karte."
             }
         }
     },
@@ -216,7 +204,8 @@
             "frontend": "Frontend",
             "mobile": "Mobile",
             "backend": "Backend",
-            "tools": "Werkzeuge"
+            "tools": "Werkzeuge",
+            "realtime": "Echtzeit"
         }
     },
     "Blog": {
@@ -225,7 +214,7 @@
     },
     "Contact": {
         "title": "Kontakt",
-        "description": "Interessiert an einer Zusammenarbeit oder haben Sie eine Frage? Lassen Sie uns reden.",
+        "description": "Eine Rolle, ein Produkt oder eine Frage. E-Mail ist der schnellste Weg.",
         "nameLabel": "Name",
         "namePlaceholder": "Max Mustermann",
         "emailLabel": "E-Mail",
@@ -236,13 +225,97 @@
         "sendingButton": "Wird gesendet...",
         "successTitle": "Nachricht gesendet!",
         "successDesc": "Vielen Dank für Ihre Kontaktaufnahme. Ich werde mich so schnell wie möglich bei Ihnen melden.",
-        "sendAnother": "Eine weitere Nachricht senden"
+        "sendAnother": "Eine weitere Nachricht senden",
+        "asideTitle": "Direkt",
+        "asideBody": "Für eine Rolle, ein Produkt oder ein Frontend, das im Betrieb bestehen muss.",
+        "missingFields": "Name, E-Mail und Nachricht sind erforderlich.",
+        "genericError": "Die Nachricht konnte nicht gesendet werden. Bitte erneut versuchen."
+    },
+    "Home": {
+        "proofFocusLabel": "Fokus",
+        "proofFocusValue": "Echtzeit-Oberflächen",
+        "proofDomainLabel": "Bereiche",
+        "proofDomainValue": "Fintech, Flotte",
+        "proofStackLabel": "Stack",
+        "proofStackValue": "Flutter, React, TypeScript",
+        "proofLangLabel": "Sprachen",
+        "proofLangValue": "Türkisch, Englisch",
+        "workIndex": "01 — Arbeit",
+        "workTitle": "Umgesetzte Projekte",
+        "workNote": "Eine Live-Krypto-Analyse, Flottenbetrieb, Zahlungen und Kartenverfolgung. Der Rest des Index liegt eine Seite weiter.",
+        "allWork": "Voller Index",
+        "viewProject": "Projekt ansehen",
+        "expIndex": "02 — Erfahrung",
+        "expTitle": "Wo es im Einsatz blieb",
+        "expNote": "Rollen, in denen die Software in Gebrauch blieb.",
+        "fullExp": "Vollständiger Verlauf",
+        "capIndex": "03 — Fähigkeiten",
+        "capTitle": "Wie die Arbeit entsteht",
+        "capNote": "Eine kurze Karte des Stacks. Die Tiefe steckt in den Produkten, nicht in einem Logo-Raster.",
+        "bgIndex": "04 — Hintergrund",
+        "bgTitle": "Ausbildung und Sprachen",
+        "contactTitle": "Wenn Sie einstellen, fangen Sie hier an.",
+        "contactNote": "Eine kurze Nachricht reicht. Ich lese jede."
+    },
+    "Background": {
+        "education": "Ausbildung",
+        "languages": "Sprachen",
+        "schools": {
+            "anadolu": {
+                "school": "Anadolu University",
+                "program": "B.Sc. Management-Informationssysteme",
+                "period": "2023 – 2026"
+            },
+            "konya": {
+                "school": "Konya Technical University",
+                "program": "Associate Degree, Computertechnologien",
+                "period": "2021 – 2023"
+            }
+        },
+        "langs": {
+            "tr": {
+                "name": "Türkisch",
+                "level": "Muttersprache"
+            },
+            "en": {
+                "name": "Englisch",
+                "level": "Professionelle Arbeitskenntnisse"
+            }
+        },
+        "references": "Referenzen",
+        "refs": {
+            "ramazan": {
+                "name": "Ramazan Kucuk",
+                "role": "Lead Product Manager, Oak Technology"
+            },
+            "cagri": {
+                "name": "Cagri Tepebasili",
+                "role": "Chief Technology Officer, Yerlem Location Tech"
+            },
+            "said": {
+                "name": "Said Baysal",
+                "role": "Chief Technology Officer, SadaApex"
+            }
+        }
+    },
+    "NotFound": {
+        "title": "Diese Seite ist nicht hier",
+        "description": "Die Adresse kann sich geändert haben. Die Arbeit liegt auf der Startseite.",
+        "back": "Zur Startseite"
     },
     "Footer": {
-        "builtBy": "Entwickelt von Necmettin Zivlak."
+        "builtBy": "Necmettin Zivlak",
+        "role": "Frontend- und Mobile-Entwickler",
+        "note": "Echtzeit-Oberflächen für Fintech und Flottenbetrieb."
     },
     "Common": {
         "toggleTheme": "Design umschalten",
-        "toggleLanguage": "Sprache wechseln"
+        "toggleLanguage": "Sprache wechseln",
+        "light": "Hell",
+        "dark": "Dunkel",
+        "system": "System",
+        "menu": "Menü",
+        "close": "Schließen",
+        "skip": "Zum Inhalt"
     }
 }
